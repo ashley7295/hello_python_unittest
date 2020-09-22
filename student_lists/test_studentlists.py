@@ -68,6 +68,7 @@ class TestStudentLists(TestCase):
     # Use assertFalse to verify is_enrolled returns False.
 
 
+
     def test_string_with_students_enrolled(self):
         test_class = ClassList(2)
         test_class.add_student('Taylor Swift')
